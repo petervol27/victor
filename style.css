@@ -2,146 +2,143 @@
 /*Main grey color: #333132
 Main Yellow color: #FBCD08*/
 
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-	line-height: 1;
-	font-weight: 400;
-	margin: 0 auto;
-	padding: 0 3.2rem;
-	background: #333132;
-	font-family: 'Heebo', sans-serif;
-
-
-
+body {
+  line-height: 1;
+  font-weight: 400;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  background: #333132;
+  font-family: "Heebo", sans-serif;
 }
-html{
-	font-size: 62.5%;
-	scroll-behavior: smooth;
-	overflow-x: hidden;
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
-.container{
-	max-width: 120rem;
-	margin: 0 auto;
-	padding: 0 3.2rem;
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
 }
 
-.main{
-	display: block;
-	max-width: 32rem;
-	margin: 0 auto;	
+.main {
+  display: block;
+  max-width: 32rem;
+  margin: 0 auto;
 }
-
 
 /*MAIN HEADER ****************************/
 
-.main-header{
-	background:#FBCD08 ;
-	margin-top: 2.4rem;
-	margin-bottom: 3.2rem;
-	padding:1.6rem ;
-	border-radius: 20px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
+.main-header {
+  background: #fbcd08;
+  margin-top: 2.4rem;
+  margin-bottom: 3.2rem;
+  padding: 1.6rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-.main-heading{
-	margin-bottom: 1.4rem;
-	font-size: 2.4rem;
-	line-height: 1.2;
-
+.main-heading {
+  margin-bottom: 1.4rem;
+  font-size: 2.4rem;
+  line-height: 1.2;
 }
 
-.sub-heading{
-	font-size: 1.2rem;
+.sub-heading {
+  font-size: 1.2rem;
 }
-
-
-
-
 
 /*ABILITIES SECTION***********************/
 
-.abilities-section{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+.abilities-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.text-holder{
-	font-size: 2.4rem;
-	margin-bottom: 1.4rem;
-	color: #FBCD08;
+.text-holder {
+  font-size: 2.4rem;
+  margin-bottom: 1.4rem;
+  color: #fbcd08;
 }
-.separator{
-	width: 100%;
-	margin-bottom: 0.8rem;
-	
+.separator {
+  width: 100%;
+  margin-bottom: 0.8rem;
 }
 
-hr{
-	height: 0.15rem;
-	color: #FBCD08;
-	background:#FBCD08;
-	border: 0;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75));
+hr {
+  height: 0.15rem;
+  color: #fbcd08;
+  background: #fbcd08;
+  border: 0;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75)
+  );
 }
 
 /*CONTACT SECTION*************************/
-.contact-section{
-	margin-top: 1.4rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 1.4rem;
-	background: #333132;
-	padding:2rem 2.4rem;
-	border-radius: 20px;
-	text-align: right;
+.contact-section {
+  margin-top: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.4rem;
+  background: #333132;
+  padding: 2rem 2.4rem;
+  border-radius: 20px;
+  text-align: right;
 }
-.contact-text{
-	text-decoration: underline;
-	font-size: 1.8rem;
-	font-weight: bold;
-	color:#333132;
-
+.contact-text {
+  text-decoration: underline;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333132;
 }
-.contact{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: row-reverse;
-	gap: 1.4rem;
-	background: #FBCD08;
-	padding: 2rem;
-	width:100%;
-	border-radius: 20px;
-}
-
-.contact-icon{
-	font-size: 1.8rem;
-	color:#333132 ;
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  gap: 1.4rem;
+  background: #fbcd08;
+  padding: 2rem;
+  width: 100%;
+  border-radius: 20px;
 }
 
-.what-icon{
-	color:#075e54;
+.contact-icon {
+  font-size: 1.8rem;
+  color: #333132;
 }
-.logo-img{
-	width: 20%;
+.contact-icon::hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.what-icon {
+  color: #075e54;
+}
+.logo-img {
+  width: 20%;
 }
 
-.logo-midrag-holder{
-display: flex;
-justify-content: center;
-align-items: center;
-width:100%;
-background: #FBCD08;
-border-radius: 20px;
+.logo-midrag-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #fbcd08;
+  border-radius: 20px;
 }
