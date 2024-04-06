@@ -127,6 +127,10 @@ hr {
   cursor: pointer;
   transform: scale(1.2);
 }
+.logo-img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
 .what-icon {
   color: #075e54;
 }
