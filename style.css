@@ -123,7 +123,7 @@ hr {
   font-size: 1.8rem;
   color: #333132;
 }
-.contact-icon::hover {
+.contact-icon:hover {
   cursor: pointer;
   transform: scale(1.2);
 }
